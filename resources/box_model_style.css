@@ -1,0 +1,68 @@
+/*
+  white: #FFFFFF
+*/
+
+/* Accent colors */
+:root {
+    --accent-1: #1f4e79;
+    --accent-2: #c00000;
+}
+
+/* Style the body */
+body {
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Style all headings */
+h1, h2, h3 {
+    color: var(--accent-1);
+}
+
+/* Center the main heading */
+h1 {
+    text-align: center;
+}
+
+/* Style table cells */
+th, td {
+    border: 2px solid var(--accent-2);
+    padding: 10px;
+    border-style: solid;
+}
+
+/* Remove gaps between table borders */
+table {
+    border-collapse: collapse;
+}
+
+/* Style text links */
+a {
+    color: var(--accent-1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Change link color when hovering */
+a:hover {
+    color: var(--accent-2);
+}
+
+/* Demonstrate the CSS box model on the paragraph */
+.text-box {
+    background-color: var(--accent-1);
+    color: white;
+    width: 400px;
+    padding: 20px;
+    border: 5px dashed var(--accent-2);
+    margin: 30px;
+}
+
+/* Demonstrate the CSS box model on the image container */
+.image-box {
+    background-color: var(--accent-1);
+    width: 646px;
+    padding: 20px;
+    border: 8px double var(--accent-2);
+    margin: 30px;
+}
